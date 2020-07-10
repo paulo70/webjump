@@ -1,0 +1,15 @@
+.search{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+
+  &-input{
+
+  }
+
+  &-button{
+    color: #fff;
+    background: #CC0D1F;
+    border: none;
+  }
+}

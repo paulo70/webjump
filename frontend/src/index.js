@@ -5,11 +5,11 @@ import 'modules/bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './app'
-import Register from './components/Register'
+import Header from './components/Header'
 
 ReactDOM.render(
   <>
-    <Register />
+    <Header />
     <App />
   </>,
   document.getElementById('root'))

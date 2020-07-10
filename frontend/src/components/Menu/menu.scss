@@ -1,0 +1,17 @@
+.menu{
+  background: #CC0D1F;
+
+  &-nav{
+    ul{
+      display: flex;
+      list-style: none;
+      padding: 0;
+
+      li {
+        color: #fff;
+        margin-right: 50px;
+        margin-top: 15px;
+      }
+    }
+  }
+}
