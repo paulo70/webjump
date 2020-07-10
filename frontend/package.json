@@ -7,22 +7,17 @@
     "dev": "webpack-dev-server --progress --colors --inline --hot",
     "production": "webpack --progress -p"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paulo70/webjump.git"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
-
   "bugs": {
     "url": "https://github.com/paulo70/webjump/issues"
   },
-
   "homepage": "https://github.com/paulo70/webjump#readme",
-
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/plugin-proposal-class-properties": "^7.5.0",
