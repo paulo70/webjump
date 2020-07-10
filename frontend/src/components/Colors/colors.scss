@@ -1,0 +1,33 @@
+.colors{
+  display: flex;
+  flex-direction: row;
+
+  h4{
+    text-transform: uppercase;
+    color: #699693;
+    font-size: 0.938em;
+  }
+
+  &-red,
+  &-orange,
+  &-sky{
+    margin-right: 0.188em;
+    margin-bottom: 1.875em;
+    width: 3.750em;
+    height: 1.250em;
+
+    cursor: pointer;
+  }
+
+  &-red{
+    background:#CC0D1F;
+  }
+
+  &-orange{
+    background:#ffc254;
+  }
+
+  &-sky{
+    background:#58aee0;
+  }
+}

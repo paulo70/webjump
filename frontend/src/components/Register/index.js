@@ -1,4 +1,5 @@
 import React from 'react'
+import { A } from 'hookrouter'
 
 import './register.scss'
 
@@ -7,11 +8,11 @@ function Register (){
     <div className='container-fluid register'>
       <div className='container'>
         <div className='row'>
-          <div className='col-xs-12'>
+          <div className='col-xs-12 col-sm-12'>
             <ul className='register-login'>
-              <li>Acesse sua conta</li>
+              <li><A href= '#'>Acesse sua conta</A></li>
               <li>ou</li>
-              <li>Cadastre-se</li>
+              <li><A href= '#'> Cadastre-se</A></li>
             </ul>
           </div>
         </div>

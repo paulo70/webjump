@@ -1,19 +1,31 @@
 .filter{
   border: 1px solid #bfbfbf;
-  width: 200px;
   margin-top: 20px;
   margin-top: 20px;
   padding: 15px;
 
   &-title{
+    text-transform: uppercase;
     color: #CC0D1F;
+    font-size: 1.250em;
+
+    margin-bottom: 0.875em;
   }
 
   &-subtitle{
-    color: #d3d3d3;
+    text-transform: uppercase;
+    color: #699693;
+    font-size: 0.938em;
   }
 
   &-menu{
     padding-left: 15px;
+
+    li{
+      font-size: 0.938em;
+      color: #7c7c7c;
+
+      padding: 0.125em 0;
+    }
   }
 }

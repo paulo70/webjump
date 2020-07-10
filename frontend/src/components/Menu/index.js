@@ -1,5 +1,7 @@
 import React from 'react'
 
+import UL from './items'
+
 import './menu.scss'
 
 function Menu(){
@@ -9,13 +11,7 @@ function Menu(){
         <div className='row'>
           <div className='col-xs-12 col-sm-12'>
             <nav className='menu-nav'>
-              <ul>
-                <li>Página Inicial</li>
-                <li>Camisetas</li>
-                <li>Calças</li>
-                <li>Sapatos</li>
-                <li>Contato</li>
-              </ul>
+              <UL />
             </nav>
           </div>
         </div>
