@@ -1,0 +1,13 @@
+.register{
+  background: #000;
+
+  &-login{
+    display: flex;
+    list-style: none;
+
+    li{
+      color:#fff;
+      margin-right: 10px;
+    }
+  }
+}
