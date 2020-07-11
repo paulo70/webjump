@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-import Card from './home-card'
+import Card from '../../components/Card'
 import Sort from '../../components/Sort/index'
 
 function Home(){
@@ -10,7 +10,7 @@ function Home(){
 
   const [data, setData] = useState([])
   const [isLoading, setIsLoading] = useState(false)
-  const [isError, setIsError] = useState(false);
+  const [isError, setIsError] = useState(false)
 
   useEffect(() => {
     const fecthData = async () => {
@@ -35,8 +35,6 @@ function Home(){
 
   return (
     <>
-      <h2 className='title-pages'>Sapatos</h2>
-
       <Sort />
 
       {isError && <div>Something went wrong ...</div>}
