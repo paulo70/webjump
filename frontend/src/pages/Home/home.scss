@@ -1,11 +1,8 @@
-.title-pages{
-  color: #CC0D1F;
-}
-
 .home{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  margin-top: 2.500em;
 
   &-card{
     width: 25%;

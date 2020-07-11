@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Filter      from './components/Filter'
-import Sort        from './components/Sort'
 import Footer      from './components/Footer'
 import Pagination  from './components/Pagination'
 
@@ -18,7 +17,6 @@ function App (){
         </div>
 
         <div className='col-sm-9'>
-          <Sort />
           <Router />
         </div>
 

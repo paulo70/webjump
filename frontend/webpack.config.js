@@ -21,7 +21,7 @@ module.exports = {
   resolve: {
     alias: {
       modules: __dirname + '/node_modules'
-    }
+    },
   },
 
   optimization: {

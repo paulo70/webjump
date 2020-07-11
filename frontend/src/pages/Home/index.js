@@ -4,6 +4,8 @@ import axios from 'axios'
 import Card from './home-card'
 import './home.scss'
 
+import Sort from '../../components/Sort/index'
+
 function Home(){
 
   const URL = 'http://localhost:3001/shoes'
@@ -25,6 +27,7 @@ function Home(){
   return (
     <>
       <h2 className='title-pages'>Sapatos</h2>
+      <Sort />
       <div className='home'>
         { data.map((item, index) =>
           <Card
