@@ -9,8 +9,12 @@
   }
 
   &-button{
+    font-weight: 800;
     color: #fff;
     background: #CC0D1F;
+    text-transform: uppercase;
     border: none;
+
+    padding: 0.625em 1.250em;
   }
 }
