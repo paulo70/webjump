@@ -1,0 +1,50 @@
+.title-pages{
+  color: #CC0D1F;
+}
+
+.home{
+  display: flex;
+  flex-direction: row;
+
+  &-card{
+    flex-grow: 1;
+
+    &-image{
+      border: 1px solid #d3d3d3;
+      width: 200px;
+      height: 200px;
+    }
+
+    &-description,
+    &-price{
+      display: block;
+      text-align: center;
+    }
+
+    &-description{
+      text-transform: uppercase;
+      color:#7c7c7c;
+
+      margin-top: 0.625em;
+      margin-bottom: 0.938em
+    }
+
+    &-price{
+      color: #CC0D1F;
+      font-weight: bold;
+
+      margin-bottom: 0.625em;
+    }
+
+    &-button{
+      color:#fff;
+      text-transform: uppercase;
+      background: #63bdbf;
+      border:0;
+      border-radius: 5px;
+
+      padding: 0.438em 3.750em;
+    }
+  }
+}
+
