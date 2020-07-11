@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form } from 'react-bootstrap'
+import { Form, Row } from 'react-bootstrap'
 
 import './sort.scss'
 
@@ -17,11 +17,12 @@ function Sort(){
       </div>
 
       <div className='col-5 sort-select'>
-        ordernar por :
-        <Form.Control as ='select'>
-          <option>Preço</option>
-          <option>Genêro</option>
-        </Form.Control>
+        <Form.Row>
+          <Form.Control as ='select'>
+            <option>Preço</option>
+            <option>Genêro</option>
+          </Form.Control>
+        </Form.Row>
       </div>
     </div>
   )
