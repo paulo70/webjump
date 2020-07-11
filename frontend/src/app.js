@@ -1,7 +1,8 @@
 import React from 'react'
 
-import Filter from './components/Filter'
-import Sort   from './components/Sort'
+import Filter  from './components/Filter'
+import Sort    from './components/Sort'
+import Footer from  './components/Footer'
 
 import Router from  './Router'
 
@@ -14,9 +15,14 @@ function App (){
         <div className='col-sm-3'>
           <Filter />
         </div>
+
         <div className='col-sm-9'>
           <Sort />
           <Router />
+        </div>
+
+        <div className='col-sm-12'>
+          <Footer />
         </div>
       </div>
     </div>
