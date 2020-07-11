@@ -9,20 +9,23 @@ import Tab2 from './tab-two.svg'
 function Sort(){
   return(
     <div className='sort'>
-      <div className='col-5'>
-        <ul className='sort-tabs'>
+      <div className='sort-items'>
+        <ul>
           <li><img  src = { Tab2 } /></li>
           <li><img  src = { Tab1 } /></li>
         </ul>
       </div>
 
-      <div className='col-5 sort-select'>
-        <Form.Row>
-          <Form.Control as ='select'>
-            <option>Preço</option>
-            <option>Genêro</option>
-          </Form.Control>
-        </Form.Row>
+      <div className='sort-items'>
+        <ul className='itens-end'>
+          <li><span>ordernar por</span></li>
+          <li>
+            <Form.Control as ='select'>
+              <option>Preço</option>
+              <option>Genêro</option>
+            </Form.Control>
+          </li>
+        </ul>
       </div>
     </div>
   )
