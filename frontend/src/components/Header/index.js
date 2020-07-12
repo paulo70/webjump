@@ -11,6 +11,7 @@ function Header(){
       <Mobile />
       <Login />
       <Research />
+      <Menu />
     </header>
   )
 }
