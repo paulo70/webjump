@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 import { A } from 'hookrouter'
 import {
   Responsive,
@@ -8,6 +9,22 @@ import {
 } from 'responsive-react'
 
 function Items (){
+
+  const URL = 'http://localhost:3001/links'
+
+  const [ data, setData ] = useState([])
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const req = await axios (URL)
+      const res = req.data.items
+
+      setData(res)
+    }
+
+    fetchData()
+  },[])
+
   return (
     <Responsive displayIn={['laptop', 'tablet']}>
       <ul>
@@ -16,23 +33,17 @@ function Items (){
             Página Inicial
           </A>
         </li>
+
+        {data.map((item, index) =>
+          <li>
+            <A href = {item.path}>
+              {item.name}
+            </A>
+          </li>
+        )}
+
         <li>
-          <A href='/shirt'>
-            Camisetas
-          </A>
-        </li>
-        <li>
-         <A href = '/paint'>
-          Calça
-         </A>
-        </li>
-        <li>
-          <A href = '/shoes'>
-          Sapatos
-          </A>
-        </li>
-        <li>
-          <A href = '/contact'>
+          <A href = '#'>
             Contato
           </A>
         </li>
