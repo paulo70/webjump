@@ -3,6 +3,7 @@ import React from 'react'
 import Color from '../Colors'
 
 import './filter.scss'
+import './filter-devices.scss'
 
 function Filter(){
 
