@@ -9,7 +9,7 @@ import {
 
 function Items (){
   return (
-    <Responsive displayIn={['laptop']}>
+    <Responsive displayIn={['laptop', 'tablet']}>
       <ul>
         <li>
           <A href = '/'>

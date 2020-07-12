@@ -1,7 +1,9 @@
 .menu{
   background: #CC0D1F;
+  padding: 0 2vw;
 
   &-nav{
+    display: flex;
     ul{
       display: flex;
       list-style: none;

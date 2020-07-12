@@ -3,6 +3,7 @@ import React from 'react'
 import UL from './items'
 
 import './menu.scss'
+import './menu-devices.scss'
 
 function Menu(){
  return (
