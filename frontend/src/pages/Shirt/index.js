@@ -4,6 +4,7 @@ import axios from 'axios'
 import Sort  from '../../components/Sort'
 import Card  from '../../components/Card'
 import Title from '../Titles'
+import Error from '../Error'
 
 function Shirt(){
 
@@ -36,7 +37,7 @@ function Shirt(){
     <>
       <Title title = 'Camisetas'/>
 
-      {isError && <div>Something went wrong ...</div>}
+      {isError && <Error />}
 
       { isLoading ? ( <div>Loading ...</div> ) : (
 

@@ -4,6 +4,7 @@ import axios from 'axios'
 import Card  from '../../components/Card'
 import Sort  from '../../components/Sort/index'
 import Title from '../Titles'
+import Error from '../Error'
 
 function Home(){
 
@@ -40,7 +41,7 @@ function Home(){
 
       <Sort />
 
-      {isError && <div>Something went wrong ...</div>}
+      {isError && <Error />}
 
       { isLoading ? ( <div>Loading ...</div> ) : (
 
