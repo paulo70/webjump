@@ -18,16 +18,20 @@ function Hamburger () {
           Home
         </a>
 
-        <a className="menu-item" href="/about">
-          About
+        <a className="menu-item" href="/">
+          Camisetas
         </a>
 
-        <a className="menu-item" href="/services">
-          Services
+        <a className="menu-item" href="/">
+          Calças
         </a>
 
-        <a className="menu-item" href="/contact">
-          Contact us
+        <a className="menu-item" href="/">
+          Sapatos
+        </a>
+
+        <a className="menu-item" href="/">
+          Contato
         </a>
       </Menu>
     </Responsive>
