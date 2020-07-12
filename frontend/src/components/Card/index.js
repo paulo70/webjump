@@ -21,7 +21,9 @@ function Card (props){
         <span className='box-card-values-price'>${props.price}</span>
       </div>
 
-      <button className='box-card-button'> Comprar </button>
+      <div className='box-card-button'>
+        <button className='box-card-button-order'> Comprar </button>
+      </div>
     </div>
   )
 }

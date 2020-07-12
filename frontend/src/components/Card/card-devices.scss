@@ -24,16 +24,10 @@
         font-size: 15px;
       }
 
-      &-price{
-        color: #CC0D1F;
-        font-weight: bold;
-        font-size: 20px;
-
-        margin-bottom: 0.625em;
-      }
-
       &-button{
-        padding: 0.625em 1.250em;
+        &-order{
+          padding: 0.625em 1.250em;
+        }
       }
     }
   }
