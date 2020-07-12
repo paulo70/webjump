@@ -38,6 +38,8 @@ function Home(){
     <>
       <Title title = 'Sapatos'/>
 
+      <Sort />
+
       {isError && <div>Something went wrong ...</div>}
 
       { isLoading ? ( <div>Loading ...</div> ) : (
