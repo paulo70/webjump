@@ -35,7 +35,7 @@ function Items (){
         </li>
 
         {data.map((item, index) =>
-          <li>
+          <li key = { index }>
             <A href = {item.path}>
               {item.name}
             </A>

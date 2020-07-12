@@ -11,7 +11,7 @@
     &-image{
       border: 1px solid #d3d3d3;
       width: 261px;
-      height: 260px;
+      height: 261px;
 
       img{
         width: 100%;
@@ -31,15 +31,31 @@
       text-align: center;
 
       margin-top: 0.625em;
-      margin-bottom: 0.938em
     }
 
-    &-price{
-      color: #CC0D1F;
-      font-weight: bold;
-      font-size: 20px;
+    &-values{
+      display: flex;
+      justify-content: center;
 
-      margin-bottom: 0.625em;
+      &-special,
+      &-price{
+        margin-bottom: 0.625em;
+      }
+
+      &-special{
+        color: #7c7c7c;
+        font-size: 16px;
+        line-height: 1.9;
+        text-decoration: line-through;
+
+        margin-right: 20px;
+      }
+
+      &-price{
+        font-size: 20px;
+        font-weight: bold;
+        color: #CC0D1F;
+      }
     }
 
     &-button{
