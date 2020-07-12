@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-import Card from '../../components/Card'
-import Sort from '../../components/Sort/index'
+import Card  from '../../components/Card'
+import Sort  from '../../components/Sort/index'
+import Title from '../Titles'
 
 function Home(){
 
@@ -35,13 +36,13 @@ function Home(){
 
   return (
     <>
-      <Sort />
+      <Title title = 'Sapatos'/>
 
       {isError && <div>Something went wrong ...</div>}
 
       { isLoading ? ( <div>Loading ...</div> ) : (
 
-        <div className='content'>
+        <div className='box'>
           { data.map((item, index) =>
             <Card
               key   = { index }
