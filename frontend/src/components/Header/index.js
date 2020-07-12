@@ -1,16 +1,17 @@
 import React from 'react'
 
-import Register from '../Register'
-import Brand    from '../Brand'
+import Login    from '../Login'
+import Research from '../Research'
 import Menu     from '../Menu'
+import Mobile   from '../Mobile'
 
 function Header(){
   return(
-    <>
-      <Register />
-      <Brand />
-      <Menu />
-    </>
+    <header>
+      <Mobile />
+      <Login />
+      <Research />
+    </header>
   )
 }
 

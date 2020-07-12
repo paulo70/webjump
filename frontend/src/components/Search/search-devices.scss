@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px) {
+  .search {
+    display: none;
+  }
+
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .search-m{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 10px;
+    height: 2.500em;
+
+
+    &-button{
+      font-weight: 800;
+      color: #fff;
+      background: #CC0D1F;
+      font-size: 0.938em;
+      text-transform: uppercase;
+      border: none;
+
+      padding: 0.625em 1.250em;
+    }
+  }
+}
+

@@ -1,12 +1,8 @@
 .search{
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 20px;
+  height: 2.500em;
+  margin-top: 0.625em;
 
-  &-input{
-
-  }
 
   &-button{
     font-weight: 800;

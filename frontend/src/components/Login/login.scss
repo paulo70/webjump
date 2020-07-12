@@ -1,12 +1,13 @@
-.register{
+.login{
   background: #000;
 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   padding: 0.625em 0;
 
-  &-login{
+  &-user{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -28,3 +29,4 @@
     }
   }
 }
+
