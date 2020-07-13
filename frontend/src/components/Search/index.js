@@ -9,8 +9,6 @@ import {
 import './search.scss'
 import './search-devices.scss'
 
-import Lupa from '../../assets/search.svg'
-
 function Search (){
 
   const [ show, setShowSearch ] = useState(false)
@@ -22,12 +20,12 @@ function Search (){
   return (
     <>
       <Responsive displayIn = {['mobile']}>
-        <img
-          src       = { Lupa }
-          alt       = 'Busca por produtos'
-          className = 'search-icon'
-          onClick   = { handleOpenSearch }
-          />
+        <span
+            className = 'search-icon'
+            onClick   = { handleOpenSearch }
+          >
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </span>
 
         { show ?
 
