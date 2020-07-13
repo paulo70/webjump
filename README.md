@@ -21,3 +21,6 @@ Mobile
 
 
 ![Alt text](/frontend/src/assets/search.png?raw=true "Desktop screen")
+
+
+![Alt text](/frontend/src/assets/menu.png?raw=true "Desktop screen")
