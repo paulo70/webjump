@@ -33,7 +33,7 @@ function Hamburger () {
     <Responsive displayIn = {['mobile']}>
       <Menu>
         <a className="menu-item" href="/">
-          Home
+          Página Inicial
         </a>
 
         {data.map((item, index) =>
