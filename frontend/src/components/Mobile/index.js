@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { slide as Menu} from 'react-burger-menu'
+import axios from 'axios'
+
 import {
   Responsive,
   isMobileDevice,
@@ -10,6 +12,22 @@ import {
 import './menu.scss'
 
 function Hamburger () {
+
+  const URL = 'http://localhost:3001/links'
+
+  const [ data, setData ] = useState([])
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const req = await axios (URL)
+      const res = req.data.items
+
+      setData(res)
+    }
+
+    fetchData()
+  },[])
+
   return (
 
     <Responsive displayIn = {['mobile']}>
@@ -18,17 +36,13 @@ function Hamburger () {
           Home
         </a>
 
-        <a className="menu-item" href="/">
-          Camisetas
-        </a>
-
-        <a className="menu-item" href="/">
-          Calças
-        </a>
-
-        <a className="menu-item" href="/">
-          Sapatos
-        </a>
+        {data.map((item, index) =>
+          <li key = { index }>
+            <a className="menu-item" href = {item.path}>
+              {item.name}
+            </a>
+          </li>
+        )}
 
         <a className="menu-item" href="/">
           Contato
