@@ -1,5 +1,5 @@
 # webjump
-This challenges was done with React, using react hooks.
+This challenge was done with React, using react hooks.
 
 1 ) To run this project git clone  https://github.com/paulo70/webjump.git, in order you should have "Node" installed in your machine.
 
