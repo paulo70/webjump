@@ -16,7 +16,9 @@ Tablet
 ![Alt text](/frontend/src/assets/tablet.png?raw=true "Desktop screen")
 
 Mobile
+
 ![Alt text](/frontend/src/assets/mobile.png?raw=true "Desktop screen")
+
 
 ![Alt text](/frontend/src/assets/search.png?raw=true "Desktop screen")
 
