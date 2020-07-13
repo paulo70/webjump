@@ -8,3 +8,12 @@ This challenge was done with React, using react hooks.
 3 ) Navigate until folder "frontend" and run "npm install", after that, type "npm run dev" in your terminal, if was success, open your browser and type http://localhost:300
 
 ![Alt text](/frontend/src/assets/desktop.png?raw=true "Desktop screen")
+
+
+![Alt text](/frontend/src/assets/tablet.png?raw=true "Desktop screen")
+
+
+![Alt text](/frontend/src/assets/mobile.png?raw=true "Desktop screen")
+
+
+![Alt text](/frontend/src/assets/search.png?raw=true "Desktop screen")
