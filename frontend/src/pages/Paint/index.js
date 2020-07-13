@@ -46,10 +46,11 @@ function Paint (){
         <div className='box'>
           { data.map((item, index) =>
             <Card
-              key   = { index }
-              image = { item.image }
-              name  = { item.name  }
-              price = { item.price }
+              key     = { index }
+              image   = { item.image }
+              name    = { item.name  }
+              special = { item.specialPrice }
+              price   = { item.price }
              />
           )}
         </div>
