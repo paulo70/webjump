@@ -5,6 +5,8 @@ import Research from '../Research'
 import Menu     from '../Menu'
 import Mobile   from '../Mobile'
 
+import './header-devices.scss'
+
 function Header(){
   return(
     <header>
