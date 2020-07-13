@@ -37,6 +37,8 @@ function Paint (){
     <>
       <Title title = 'Calças'/>
 
+      <Sort />
+
       {isError && <Error />}
 
       { isLoading ? ( <div>Loading ...</div> ) : (

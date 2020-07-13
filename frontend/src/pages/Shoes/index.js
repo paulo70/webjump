@@ -33,6 +33,8 @@ function Shoes (){
     <>
       <Title title = 'Sapatos'/>
 
+      <Sort />
+
       {isError && <Error />}
 
       { isLoading ? ( <div>Loading ...</div> ) : (

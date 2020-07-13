@@ -37,6 +37,8 @@ function Shirt(){
     <>
       <Title title = 'Camisetas'/>
 
+      <Sort />
+
       {isError && <Error />}
 
       { isLoading ? ( <div>Loading ...</div> ) : (
